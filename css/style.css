@@ -1,0 +1,146 @@
+*{
+margin:0px;
+padding:0px;
+}
+html{
+width:100%;
+height:100%;
+}
+body{
+width:100%;
+background:#F3F3F3;
+}
+.main_container{position:relative;}
+.navigation_section{position:fixed;top:0px; left:0px; background:#6A6A6A;height:100%;width:80%; overflow-x: hidden; overflow-y: auto; 
+-webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+padding-left:20px;
+z-index: 99;
+
+}
+.content_screen{position:fixed;top:0px; background:url("IIMB_Alumni_app_Login screen.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+height:100%;width:100%; overflow-x: hidden; overflow-y: hidden;
+display:block;
+z-index:999;
+/* min-width:320px; */
+-webkit-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.75);
+ right:0px;
+}
+.top_block{padding:18px 5px;-webkit-box-shadow: 1px 6px 6px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 6px 6px -4px rgba(0,0,0,0.75);
+box-shadow: 1px 6px 6px -4px rgba(0,0,0,0.75);
+margin-left:0px !important;
+margin-right:0px !important;
+}
+.form_box{width:70%;background:#fff;margin:40px auto 0px;padding:6%; -moz-box-shadow: 0px 3px 8px rgb(100,100,100);
+-webkit-box-shadow: 0px 3px 8px rgb(100,100,100);
+box-shadow: 0px 3px 8px rgb(100,100,100);border-radius:8px;}
+.form_heading h3{text-align:Center; margin-top:0px;}
+.sign_in_continer{padding-right:0px;}
+.sign_in{float:right; width:100%;background:#9E010C;color:#fff;border:none;}
+.sign_in:hover{background:#9E010C;color:#fff;}
+.navi_top h2{color:#AAAAAA;font-weight:bold; border-bottom:1px solid #D4D4D4;padding:0px 0px 10px 0px; margin-bottom:0px;}
+.menu_list li{list-style:none; border-bottom:1px solid #D4D4D4; padding:10px 0px 10px 0px; cursor:pointer;}
+.menu_list li:last-child{border-bottom:none;}
+.menuicon{float: left; margin-right: 15px;}
+.menuname{display: block; margin-top: 8px;}
+.menuname a{color:#fff;text-decoration:none;font-size:19px;}
+.menuname a:hover{color:#fff;text-decoration:none;}
+.menu_click {text-indent: 10px;}
+.menu_click img{cursor:pointer;}
+#section_one{width:100%; height:100%;display:none;}
+#section_two{width:100%; height:100%;background:#fff; display:none;}
+#section_three{width:100%; height:100%;}
+#section_four{width:100%; height:100%; display:none; background:#fff;}
+#section_five{width:100%; height:100%;display:none; background:#fff; }
+#section_six{width:100%; height:100%; display:none; background:#fff;}
+#section_six2{width:100%; height:100%; display:none; background:#fff;}
+#section_seven{width:100%; height:100%; display:none; background:#fff;}
+#section_eight{width:100%; height:100%; display:none; background:#fff;}
+#section_nine{width:100%; height:100%; display:none; background:#fff;}
+#section_ten{width:100%; height:100%; display:none; background:#fff;}
+#section_eleven{width:100%; height:100%; display:none; background:#fff;}
+#section_eleven2{width:100%; height:100%; display:none; background:#fff;}
+#section_sixx{width:100%; height:100%; background:#fff;}
+#section_twelve{width:100%; height:100%; display:none; background:#fff;}
+#section_fiveteen{width:100%; height:100%; display:none; background:#fff;}
+li[data="section_six"],li[data="section_seven"],li[data="section_eight"]{  display:none; }
+#member_section li h3{margin:4px 0 2px; font-size:16px;}
+#member_section li p{margin:2px 0;}
+.top_heading{font-size:20px;}
+.news_box{margin:20px 0px 0px;background:#fff; height: 80%;  overflow-x: hidden;
+    overflow-y: auto; position:relative;}
+.news_list{padding:0px 0px 0px 20px; min-height:300px;}
+.dsnews_list{padding:0px 0px 0px 20px; min-height:300px;}
+.list_images img{width:100%;
+border: 1px solid #CCCCCC;
+ margin-top: 4px;
+  padding: 2px;
+}
+.menu_click buton{font-size:10px;}
+.member_desc_bx{margin-top:15px; padding-bottom: 12px; border-bottom: 1px solid #CCCCCC;}
+.desc_key{padding-left:0px; font-size:12px; font-weight:bold;}
+.desc_value{ padding-left:0px; font-size:11px; text-align: center;}
+.loading{background:url("http://s14.postimg.org/f564yowq5/ajax_loader.gif") no-repeat scroll center 20% rgba(0, 0, 0, 0);width:100%;height:16px;position: absolute; top:45%; z-index:9990; display:none;}
+.descr_row{margin-left:0px;margin-right:0px;}
+.descr_row li{border-bottom:none;}
+.news_list li{list-style:none; padding:10px 15px; border-bottom:1px solid #D4D4D4;  cursor: pointer;}
+.news_expert h3{margin:0px 0px 4px 0px;font-size:1.2em; font-family:serif;} 
+.news_expert p{color:#ADADAD;font-size:12px; font-family:serif;}
+.home_box{padding:0px 0px 0px 0px;/* background:url("iPhone_sc_IIMB_Alumni_app_hm_screen_new.jpg") repeat scroll 0 -32px / cover  rgba(0, 0, 0, 0); */
+ margin:0px 0px 0px 0px; width:100%;height:85%; position:relative;
+  /*  margin: 0 0 100px; */
+   overflow-x:hidden;
+   overflow-y:auto;
+}
+.more_info{padding:10px 10px;}
+
+.home_box p{font-size:13px;text-align:justify;    word-break: normal;  word-wrap: break-word;
+
+ -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; 
+	
+   }
+.home_box_content{width:75%;background:#fff;margin:40px auto 15%;padding:6%; -moz-box-shadow: 0px 3px 8px rgb(100,100,100);
+-webkit-box-shadow: 0px 3px 8px rgb(100,100,100);
+box-shadow: 0px 3px 8px rgb(100,100,100);border-radius:8px;}
+.home_box_heading{font-size: 18px; font-weight: normal; text-align: center;}
+.home_box_para{margin:15px 0px 0px 0px;}
+#section_three .top_block{background:#fff;}
+.images_area{}
+.images_area img{width:100%; padding:2px;border:1px solid #ccc;}
+#form_logout{display:none;}
+p{text-align:justify;}
+.tablehidden{width:100%; overflow:hidden; overflow-x:scroll;}
+.jobdesc_box{padding:0px 10px;}
+.datetimejobs{font-size:12px; color:#ADADAD;}
+.jobs_descr_box > p{  font-size: 12px;}
+.desc_area img{width:100% !important; float:none !important; display:block;margin:5px auto !important;max-width:200px;}
+.desc_area p{padding-left:0px !important; text-align:justify;}
+.desc_area{text-align:justify; }
+.member_search{padding:0px 30px;}
+.search_button{ background: none repeat scroll 0 0 #9E010C;
+    border: medium none;
+    color: #FFFFFF;
+   
+}
+.search_button:hover{ background: none repeat scroll 0 0 #9E010C; color: #FFFFFF; }
+.button_s{text-align:right;}
+#program_list > option {text-indent: 15px;}
+#year_graduation> option {text-indent: 15px;}
+#membersearch_section2{display:none;}
+#membersearch_section2 li h3 { font-size: 16px; margin: 4px 0 2px; }
+#membersearch_section2 li p { margin: 2px 0; }
+#section_six2{display:block;}
+.smallicon_im {margin-right: 10px; width: 18px; }
+.newsdatetime a{color:#B72C30;}
+.newsdatetime {font-size: 13px;}
