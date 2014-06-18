@@ -9,45 +9,91 @@
     <link href="css/kendo.dataviz.min.css" rel="stylesheet" />
     <link href="css/kendo.dataviz.default.min.css" rel="stylesheet" />
     <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
 	<script src="js/jquery.js"></script>
 	<script src="js/kendo.all.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	
     
 </head>
 <body>
+	<div data-role="layout" data-id="drawer-layout">
+		<header data-role="header">
+			<div data-role="navbar">
+				<a data-role="button" data-rel="drawer" href="#my-drawer" data-icon="drawer-button" data-align="left"></a>
+				<span data-role="view-title"></span>
+				<a data-align="right" data-role="button" class="nav-button" href="#/">Index</a>
+			</div>
+		</header>
+	</div>
+	
+	
+	
     <div data-role="view" id="drawer-home" data-layout="drawer-layout" data-title="Inbox">
-    <ul data-role="listview" class="inboxList">
-        <li>
-            <h3 class="time">07:56</h3><h3>John Doe</h3>
-            <h2>Monday meeting</h2>
-            <p>Hi Tom, Since Monday I'll be out of office, I'm rescheduling the meeting for Tuesday.</p>
-        </li>
-        <li>
-            <h3 class="time">08:21</h3><h3>Joe Harper</h3>
-            <h2>I'm sorry, Tom</h2>
-            <p>Hi Tom, my aunt comes for a visit this Saturday, so I can't come back to St. Pete...</p>
-        </li>
-        <li>
-            <h3 class="time">08:33</h3><h3>Sarah Connor</h3>
-            <h2>Regarding org chart changes</h2>
-            <p>Tom, I checked the new org chart last night and I have some reservations about it...</p>
-        </li>
-        <li>
-            <h3 class="time">08:40</h3><h3>John Doe</h3>
-            <h2>Re: Regarding org chart changes</h2>
-            <p>Agree with Sarah...</p>
-        </li>
-        <li>
-            <h3 class="time">09:16</h3><h3>Jane Parker</h3>
-            <h2>Your Costume is ready</h2>
-            <p>Hi mr. Sawyer, I'm sorry for the delay, your Halloween costume is ready. The bears...</p>
-        </li>
-        <li>
-            <h3 class="time">11:03</h3><h3>Becky Thatcher</h3>
-            <h2>Out tonight?</h2>
-            <p>Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...</p>
-        </li>
-    </ul>
-</div>
+		<ul data-role="listview" class="inboxList">
+			<li>
+				
+				<h2>Logo</h2>
+				
+			</li>
+			<li>
+				<div>
+					
+					  <div id="demo">
+						<div class="container">
+						  <div class="row">
+							<div class="span12">
+
+							  <div id="owl-demo" class="owl-carousel">
+								<div class="item"><img class="lazyOwl" data-src="assets/owl1.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl2.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl3.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl4.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl5.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl6.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl7.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl8.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl1.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl2.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl3.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl4.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl5.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl6.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl7.jpg" alt="Lazy Owl Image"></div>
+								<div class="item"><img class="lazyOwl" data-src="assets/owl8.jpg" alt="Lazy Owl Image"></div>
+							  </div>
+
+							</div>
+						  </div>
+						</div>
+
+					</div>
+
+				</div>
+			</li>
+			<li>
+				<h3 class="time">08:33</h3><h3>Sarah Connor</h3>
+				<h2>Regarding org chart changes</h2>
+				<p>Tom, I checked the new org chart last night and I have some reservations about it...</p>
+			</li>
+			<li>
+				<h3 class="time">08:40</h3><h3>John Doe</h3>
+				<h2>Re: Regarding org chart changes</h2>
+				<p>Agree with Sarah...</p>
+			</li>
+			<li>
+				<h3 class="time">09:16</h3><h3>Jane Parker</h3>
+				<h2>Your Costume is ready</h2>
+				<p>Hi mr. Sawyer, I'm sorry for the delay, your Halloween costume is ready. The bears...</p>
+			</li>
+			<li>
+				<h3 class="time">11:03</h3><h3>Becky Thatcher</h3>
+				<h2>Out tonight?</h2>
+				<p>Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...</p>
+			</li>
+		</ul>
+	</div>
 
 <div data-role="view" id="drawer-starred" data-layout="drawer-layout" data-title="Starred Items">
     <ul data-role="listview">
@@ -133,15 +179,7 @@
     </ul>
 </div>
 
-<div data-role="layout" data-id="drawer-layout">
-    <header data-role="header">
-        <div data-role="navbar">
-            <a data-role="button" data-rel="drawer" href="#my-drawer" data-icon="drawer-button" data-align="left"></a>
-            <span data-role="view-title"></span>
-            <a data-align="right" data-role="button" class="nav-button" href="#/">Index</a>
-        </div>
-    </header>
-</div>
+
 
 <script>
     // reset global drawer instance, for demo purposes
@@ -198,12 +236,29 @@
         float: left;
         margin-right: 10px;
     }
+	.item{margin:0px 2px;}
+	.item img{width:100%; height:80px;}
 </style>
 
 
 
 <script>
     var app = new kendo.mobile.Application(document.body);
+	
 </script>
+	
+				 <script>
+				$(document).ready(function() {
+
+				  $("#owl-demo").owlCarousel({
+					items : 3,
+					itemsMobile : [479,3],
+					lazyLoad : true,
+					navigation : false,
+					pagination : false
+				  });
+
+				});
+				</script>
 </body>
 </html>
