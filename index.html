@@ -17,7 +17,7 @@
 	
     
 </head>
-<body>
+<body style="background:red;">
 	<div data-role="layout" data-id="drawer-layout">
 		<header data-role="header">
 			<div data-role="navbar">
@@ -28,9 +28,9 @@
 		</header>
 	</div>
 	<div data-role="view" id="drawer-home" data-layout="drawer-layout" data-title="Inbox">
-		
-		<div style="position:relative;z-index: 9999;">	
-			<div style="margin:20px 0px;text-align:Center;">
+		<div style="clear:both;"></div>
+		<div style="position:relative;">	
+			<div style="margin:20px 0px;text-align:Center; background:#fff;">
 				<div id="owl-demo" class="owl-carousel">
 				</div>
 			</div>
@@ -196,7 +196,7 @@ text-align: center;
 .owl-item{margin:0 2px 0px 0px;}
 .owl-item img{width:100%;}
 
-
+.km-content.km-widget.km-scroll-wrapper{background:red;}
 </style>
 
 
@@ -215,7 +215,7 @@ text-align: center;
     $("#owl-demo").owlCarousel({
     jsonPath : 'custom_json.json',
     jsonSuccess : customDataSuccess,
-	 itemsMobile : [479,3],
+	 itemsMobile : [479,2],
 	 pagination : false
     });
      
